@@ -1,0 +1,118 @@
+/* -- Сеточные стили --*/
+
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+}
+
+.main-header {
+    margin-bottom: 75px;
+}
+
+.main-header__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner-header {
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: #000000;
+}
+
+.container-header__1 {
+    display: flex;
+    margin: auto;
+    width: 940px;
+    padding: 0 10px;
+}
+
+.main-header__logo {
+    order: 2;
+    width: 368px;
+    height: 153px;
+}
+
+.main-header__links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header__user-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-header__login {}
+
+.container {}
+
+.container__visually-hidden {}
+
+.features {}
+
+.features__list {}
+
+.features__item {}
+
+.index-columns {}
+
+.news {}
+
+.news__list {}
+
+.news__item {}
+
+.button {}
+
+.gallery {}
+
+.gallery__content {}
+
+.gallery__button {}
+
+.gallery__button-back {}
+
+.gallery__button-next {}
+
+.contacts {}
+
+.appointment {}
+
+.appointment__info {}
+
+.appointment-form {}
+
+.appoinment-item {}
+
+.main-footer {}
+
+.footer-contacts {}
+
+.social {}
+
+.social-button {}
+
+.footer-copy {}
+
+.modal {}
+
+.modal-login {}
+
+.login-form {}
+
+.visually-hidden {}
+
+.login-icon-user {}
+
+.login-password-info {}
+
+.checkbox-indicator {}
+
+.restore {}
+
+.modal-close {}

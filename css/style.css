@@ -17,16 +17,12 @@ a {
     text-decoration: none;
 }
 
-.main-header {}
-
 .main-header__navigation {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
     background-color: #000000;
 }
-
-.main-header__logo {}
 
 .main-header__links,
 .main-header__user-nav {
@@ -45,10 +41,6 @@ a {
     background-color: #242424;
 }
 
-.main-header__login {}
-
-.container {}
-
 .container__visually-hidden {
     position: absolute;
     width: 1px;
@@ -59,8 +51,6 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-.features {}
 
 .features__list {
     list-style: none;
@@ -84,8 +74,6 @@ a {
     font-size: 30px;
     line-height: 42px;
 }
-
-.news {}
 
 .news__list {
     list-style: none;
@@ -111,21 +99,9 @@ a {
     background-color: #663d15;
 }
 
-.gallery {}
-
 .gallery__content {
     border: 7px solid #ffffff;
 }
-
-.gallery__button {}
-
-.gallery__button-back {}
-
-.gallery__button-next {}
-
-.contacts {}
-
-.appointment {}
 
 .appointment-item input {
     font: inherit;
@@ -137,14 +113,10 @@ a {
     border-color: #663d15;
 }
 
-.appointment__info {}
-
 .main-footer {
     color: #ffffff;
     background-color: #212121;
 }
-
-.footer-contacts {}
 
 .footer-contacts a {
     color: #ffffff;
@@ -215,7 +187,3 @@ a {
 .restore:focus {
     text-decoration: none;
 }
-
-.modal-login {}
-
-.modal-close {}
