@@ -1,3 +1,26 @@
+/* -- Универсальный скрывающий стиль!!! -- */
+
+.container__visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].container__visually-hidden,
+input[type="radio"].container__visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+/* -- Универсальный скрывающий стиль!!! -- */
+
+
+/* -- Основной стиль страницы -- */
+
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +44,7 @@ a {
     font-size: 16px;
     line-height: 20px;
     color: #ffffff;
-    background-color: #000000;
+    /*background-color: #000000;*/
 }
 
 .main-header__links,
@@ -39,17 +62,6 @@ a {
 .main-header__links a:focus,
 .main-header__user-nav a:focus {
     background-color: #242424;
-}
-
-.container__visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .features__list {
