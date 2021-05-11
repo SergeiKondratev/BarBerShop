@@ -115,6 +115,9 @@ a {
     border: 7px solid #ffffff;
 }
 
+
+/* -- Не работает -- */
+
 .appointment-item input {
     font: inherit;
     background-color: transparent;
@@ -122,8 +125,11 @@ a {
 }
 
 .appointment-item input:focus {
-    border-color: #663d15;
+    border: 2px solid #663d15;
 }
+
+
+/* -- Не работает -- */
 
 .main-footer {
     color: #ffffff;
