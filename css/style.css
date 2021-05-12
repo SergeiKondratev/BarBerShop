@@ -118,15 +118,45 @@ a {
 
 /* -- Не работает -- */
 
-.appointment-item input {
+.appoinment-item input[type="text"],
+.appoinment-item input[type="tel"] {
+    font: inherit;
+    background-color: transparent;
+    border: 2px solid #000000;
+}
+
+
+/* -- Такой вариант не работает -- */
+
+
+/*.appoinment-item input[type="text"]:focus,
+.appoinment-item input[type="tel"]:focus {
+    border: 2px solid #663d15;
+} /* -- Такой вариант не работает -- */
+
+
+/* -- Этот вариант тоже не работает -- */
+
+.appoinment-item #apointment-date:focus {
+    border: 2px solid #663d15;
+}
+
+
+/* -- Этот вариант тоже не работает -- */
+
+
+/* -- Это их код и он не работает вообще -- */
+
+
+/*.appointment-item input {
     font: inherit;
     background-color: transparent;
     border: 2px solid #000000;
 }
 
 .appointment-item input:focus {
-    border: 2px solid #663d15;
-}
+    border-color: #663d15;
+}     /* -- Это их код и он не работает вообще -- */
 
 
 /* -- Не работает -- */
