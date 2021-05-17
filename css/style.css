@@ -15,6 +15,21 @@ input[type="radio"].container__visually-hidden {
     white-space: nowrap;
 }
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 
 /* -- Универсальный скрывающий стиль!!! -- */
 
@@ -118,8 +133,7 @@ a {
 
 /* -- Не работает -- */
 
-.appoinment-item input[type="text"],
-.appoinment-item input[type="tel"] {
+.appoinment-item input {
     font: inherit;
     background-color: transparent;
     border: 2px solid #000000;
@@ -137,7 +151,7 @@ a {
 
 /* -- Этот вариант тоже не работает -- */
 
-.appoinment-item #apointment-date:focus {
+.appoinment-item input:focus {
     border: 2px solid #663d15;
 }
 
@@ -164,6 +178,8 @@ a {
 .main-footer {
     color: #ffffff;
     background-color: #212121;
+    padding-top: 64px;
+    padding-bottom: 45px;
 }
 
 .footer-contacts a {

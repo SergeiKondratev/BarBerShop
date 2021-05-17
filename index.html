@@ -133,9 +133,9 @@
             <div class="social">
                 <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
                 <ul>
-                    <li><a href="#" class="social-button">Вконтакте</a></li>
-                    <li><a href="#" class="social-button">Фейсбук</a></li>
-                    <li><a href="#" class="social-button">Инстаграм</a></li>
+                    <li><a href="#" class="social-button"><span class="visually-hidden">Вконтакте</span><img width="20" heigth="20" src="svg/vk.svg"></a></li>
+                    <li><a href="#" class="social-button"><span class="visually-hidden">Фейсбук</span><img src="svg/facebook.svg" width="20" heigth="20"></a></li>
+                    <li><a href="#" class="social-button"><span class="visually-hidden">Инстаграм</span><img src="svg/instagram.svg" width="20" heigth="20"></a></li>
                 </ul>
 
 
@@ -148,9 +148,12 @@
     </footer>
 
     <section class="modal modal-login">
+
+
         <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
-        <p>ВВедите пожалуйста свой логин и пароль</p>
+        <p class="madal-discription">ВВедите пожалуйста свой логин и пароль</p>
         <!--Здесь будет форма!!!-->
+
         <form action="https://echo.htmlacademy.ru" method="post" class="login-form">
             <p>
                 <label for="user-login" class="visually-hidden">Логин</label>
@@ -158,21 +161,25 @@
             </p>
             <p>
                 <label for="user-password" class="visually-hidden">Пароль</label>
-                <input id="user-password" type="text" name="password" placeholder="Пароль" class="login-icon-user">
+                <input id="user-password" type="text" name="password" placeholder="Пароль" class="login-icon-password">
             </p>
+
+
             <p class="login-password-info">
-                <label for="login-password-info">
-                <input id="login-password-info" type="checkbox" name="remember" class="visually-hidden">
+                <label class="login-checkbox">
+                <input id="login-checkbox" type="checkbox" name="remember" class="visually-hidden">
                 <span class="checkbox-indicator"></span>
                 Запомни меня
-            </label>
+                </label>
                 <a href="#" class="restore">Я забыл пароль!</a>
             </p>
+
             <button class="button" type="submit">Войти</button>
         </form>
+
         <button type="button" class="modal-close">Закрыть</button>
     </section>
-    <section class="modal modal-login">
+    <section class="modal modal-map">
         <h2 class="container__visually-hidden">КАК ПРОЕХАТЬ</h2>
 
         <p>
